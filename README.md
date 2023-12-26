@@ -16,8 +16,6 @@ curl -sL https://raw.githubusercontent.com/phoenixbyrd/Termux_XFCE/main/setup.sh
 &nbsp;
 
 
-Join the Discord for any questions, help, suggestions, etc. [https://discord.gg/pNMVrZu5dm](https://discord.gg/pNMVrZu5dm)  
-
 &nbsp;
 
 ![Desktop Screenshot](desktop.png)
@@ -63,24 +61,3 @@ There are two scripts available for this setup as well
   
 ```cp2menu``` Running this will pop up a window allowing you to copy .desktop files from debian proot into the termux xfce "start" menu so you won't need to launch them from terminal. A launcher is available in the System menu section.
 
-&nbsp;
-
-# Process completed (signal 9) - press Enter
-
-install LADB from playstore or from here https://github.com/hyperio546/ladb-builds/releases
-
-connect to wifi   
-  
-In split screen have one side LADB and the other side showing developer settings.
-  
-In developer settings, enable wireless debugging then click into there to get the port number then click pair device to get the pairing code.
-  
-Enter both those values into LADB
-  
-Once it connects run this command
-  
-```adb shell "/system/bin/device_config put activity_manager max_phantom_processes 2147483647"```
-
-You can also run adb shell from termux directly by following the guide found in this video
-
-[https://www.youtube.com/watch?v=BHc7uvX34bM](https://www.youtube.com/watch?v=BHc7uvX34bM)
